@@ -1,0 +1,14 @@
+# The path to your dataset folder
+path: ../data/yolo_dataset 
+
+# Where the study, practice, and exam photos are
+train: images/train
+val: images/val
+test: images/test
+
+# The names of the tumors you found in the rainbow pictures
+names:
+  0: glioma
+  1: meningioma
+  2: pituitary
+  3: no_tumor
